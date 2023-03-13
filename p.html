@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialsite</title>
+    <link rel="stylesheet" href="./p.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="icon" href="logo.png" type="febicone">
+    <script src="./p.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                Tiwariji
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="search a kuch bhi">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="IMG-20210804-WA0024.jpg">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="IMG-20210804-WA0024.jpg">
+                    </div>
+                    <div class="handel">
+                        <h4>Shubham Tiwari</h4>
+                        <div class="text-muted">
+                            @tiwari9987
+                        </div>
+                    </div>
+                </a>
+           
+            <div class="sidebar">
+                <a class="menu-item active">
+                    <span><i class="uil uil-home"></i></span><h3>Home</h3>     
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-compass"></i></span><h3>Explore</h3>     
+                </a>
+                <a class="menu-item" id="messagse-notification">
+                    <span><i class="uil uil-message" id></i></span><h3>Messages</h3>     
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-bell"></i></span><h3>Notifications</h3>     
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-bookmark"></i></span><h3>Bookmarks</h3>     
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-analytics"></i></span><h3>Analytics</h3>     
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-palette"></i></span><h3>Theme</h3>     
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
+                </a>
+            </div>
+            <label for="create-post" class="btn btn-primary">Create Post</label>
+         </div>
+         <!-- middle -->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="IMG-20210804-WA0024.jpg" >
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="download 2.jpg" >
+                        </div>
+                        <p class="name">Vishal</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="download 4.jpg" >
+                        </div>
+                        <p class="name">Vaibhav</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="download 5.jpg" >
+                        </div>
+                        <p class="name">Vikash</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="download 3.jpg" >
+                        </div>
+                        <p class="name">Tushar</p>
+                    </div>
+                </div>
+                <form  class="create-post">
+                    <div class="profile-picture" >
+                        <img src="IMG-20210804-WA0024.jpg" >
+                    </div>
+                    <input id="" type="text" placeholder="search a id">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="download 7.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lana rhodes</h3>
+                                    <small>Madhey Pradesh</small>
+                                </div>
+                             </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                         </div> 
+                                <div class="photo">
+                                    <img src="images 13.jpg">
+                                </div> 
+                                <div class="action-buttons">
+                                    <div class="interaction-buttons">
+                                        <span><i class="uil uil-heart" id="heart"></i></span>
+                                        <span><i class="uil uil-comment"></i></span>
+                                        <span><i class="uil uil-share"></i></span>
+                                    </div>
+                                    <div class="bookmark">
+                                         <span><i class="uil uil-bookmark"></i></span>   
+                                    </div>
+                                </div>
+                                <div class="liked-by">
+                                    <p><b>Liked in 2144 other</b> and <br> some other a <b>comment in 233 others</b> in post</p>
+                                </div>         
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="images 9.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Deny Denial</h3>
+                                    <small>American</small>
+                                </div>
+                             </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                         </div> 
+                                <div class="photo">
+                                    <img src="images 10.jpg">
+                                </div> 
+                                <div class="action-buttons">
+                                    <div class="interaction-buttons">
+                                        <span><i class="uil uil-heart"></i></span>
+                                        <span><i class="uil uil-comment"></i></span>
+                                        <span><i class="uil uil-share"></i></span>
+                                    </div>
+                                    <div class="bookmark">
+                                         <span><i class="uil uil-bookmark"></i></span>   
+                                    </div>
+                                </div>
+                                <div class="liked-by">
+                                    <p><b>Liked in 89999 other</b> and <br> some other a <b>comment in 993 others</b> in post</p>
+                                </div>         
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="download 6.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Sunny Leon</h3>
+                                    <small>Indian</small>
+                                </div>
+                             </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                         </div> 
+                                <div class="photo">
+                                    <img src="images 9.jpg">
+                                </div> 
+                                <div class="action-buttons">
+                                    <div class="interaction-buttons">
+                                        <span><i class="uil uil-heart" id="heart"></i></span>
+                                        <span><i class="uil uil-comment"></i></span>
+                                        <span><i class="uil uil-share"></i></span>
+                                    </div>
+                                    <div class="bookmark">
+                                         <span><i class="uil uil-bookmark"></i></span>   
+                                    </div>
+                                </div>
+                                <div class="liked-by">
+                                    <p><b>Liked in 5001 other</b> and <br> some other a <b>comment in 400 others</b> in post</p>
+                                </div>         
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="download 7.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Leah Gotti</h3>
+                                    <small>Russian</small>
+                                </div>
+                             </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                         </div> 
+                                <div class="photo">
+                                    <img src="download 7.jpg">
+                                </div> 
+                                <div class="action-buttons">
+                                    <div class="interaction-buttons">
+                                        <span><i class="uil uil-heart"></i></span>
+                                        <span><i class="uil uil-comment"></i></span>
+                                        <span><i class="uil uil-share"></i></span>
+                                    </div>
+                                    <div class="bookmark">
+                                         <span><i class="uil uil-bookmark"></i></span>   
+                                    </div>
+                                </div>
+                                <div class="liked-by">
+                                    <p><b>Liked in 232255 other</b> and <br> some other a <b>comment in 544 others</b> in post</p>
+                                </div>         
+                    </div>
+                    
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="images 10.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Sofiya leon </h3>
+                                    <small>Russian</small>
+                                </div>
+                             </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                         </div> 
+                                <div class="photo">
+                                    <img src="download 6.jpg">
+                                </div> 
+                                <div class="action-buttons">
+                                    <div class="interaction-buttons">
+                                        <span><i class="uil uil-heart" id="heart"></i></span>
+                                        <span><i class="uil uil-comment"></i></span>
+                                        <span><i class="uil uil-share"></i></span>
+                                    </div>
+                                    <div class="bookmark">
+                                         <span><i class="uil uil-bookmark"></i></span>   
+                                    </div>
+                                </div>
+                                <div class="liked-by">
+                                    <p><b>Liked in 14455 other</b> and <br> some other a <b>comment in 333 others</b> in post</p>
+                                </div>         
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <span><i class="uil uil-edit"></i></span>
+                    </div>
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search messages" id="messages-search">
+                    </div>
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-request">Request(5)</h6>
+                    </div>
+                    <!-- message -->
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="download 8.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Jainson dakota</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="download 4.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Jonny sciene</h5>
+                            <p class="text-muted">ok i fuck u</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="download 2.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Vaibhav_jain</h5>
+                            <p class="text-muted">thik h</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="download 3.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Vikas</h5>
+                            <p class="text-muted">2 new messages</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- frend request -->
+                <div class="fren-request">
+                    <h4>Request</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images 16.jpg">
+                            </div>
+                            <div>
+                                <h5>Anamika rathore</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images 19.jpg">
+                            </div>
+                            <div>
+                                <h5>Baby girl</h5>
+                                <p class="text-muted">
+                                    +19 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images 15.jpg">
+                            </div>
+                            <div>
+                                <h5>Sexy Lena</h5>
+                                <p class="text-muted">
+                                    Mahakal
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images 17.jpg">
+                            </div>
+                            <div>
+                                <h5>Often anjali</h5>
+                                <p class="text-muted">
+                                    2 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="download 18.jpg">
+                            </div>
+                            <div>
+                                <h5>MJ Love</h5>
+                                <p class="text-muted">
+                                    +1 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- --------theme customization-------- -->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size,color,and background.</p>
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
